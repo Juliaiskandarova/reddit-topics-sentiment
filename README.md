@@ -24,7 +24,7 @@ Arctic Shift (https://arctic-shift.photon-reddit.com), архив данных R
 ## Сбор данных
 Данные получены через Download Tool Arctic Shift
 (https://arctic-shift.photon-reddit.com/download-tool).
-Выгружены посты сообществ r/learnprogramming 
+Выгружены посты сообществ r/learnprogramming и r/datascience
 за период с 01.01.2021 по 31.12.2025.
 
 Сырые файлы лежат в `data/raw/` и в git не хранятся из-за размера.
@@ -34,6 +34,7 @@ Arctic Shift (https://arctic-shift.photon-reddit.com), архив данных R
 | Сабреддит | Постов | Период |
 |---|---|---|
 | learnprogramming | 211365 | 2021-01 — 2025-12 |
+| datascience      | 76289  | 2021-01 — 2025-12 |
 
 
 Проверка данных: `python src/check_data.py <файл>`.
