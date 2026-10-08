@@ -33,7 +33,7 @@ Arctic Shift (https://arctic-shift.photon-reddit.com), архив данных R
 
 | Сабреддит | Постов | Период |
 |---|---|---|
-| learnprogramming | ... | 2021-01 — 2025-12 |
+| learnprogramming | 211365 | 2021-01 — 2025-12 |
 
 
 Проверка данных: `python src/check_data.py <файл>`.
