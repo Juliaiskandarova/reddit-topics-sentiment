@@ -1,0 +1,12 @@
+# Сырые данные 
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Служебное
+.DS_Store
