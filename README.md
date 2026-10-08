@@ -21,3 +21,20 @@ Arctic Shift (https://arctic-shift.photon-reddit.com), архив данных R
 - `data/sample/` — небольшая выборка
 - `notebooks/` — ноутбуки с анализом
 
+## Сбор данных
+Данные получены через Download Tool Arctic Shift
+(https://arctic-shift.photon-reddit.com/download-tool).
+Выгружены посты сообществ r/learnprogramming 
+за период с 01.01.2021 по 31.12.2025.
+
+Сырые файлы лежат в `data/raw/` и в git не хранятся из-за размера.
+Образцы по 200 записей: `data/sample/`.
+Формат: JSON Lines (одна запись на строку, около 100 полей Reddit).
+
+| Сабреддит | Постов | Период |
+|---|---|---|
+| learnprogramming | ... | 2021-01 — 2025-12 |
+
+
+Проверка данных: `python src/check_data.py <файл>`.
+Скрипт `src/collect_posts.py` — альтернативный сбор через API.
