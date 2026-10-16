@@ -10,3 +10,7 @@ __pycache__/
 
 # Служебное
 .DS_Store
+
+# Обработанные данные 
+data/processed/*
+!data/processed/.gitkeep
